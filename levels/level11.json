@@ -1,0 +1,158 @@
+{
+    "1": {
+        "name": "Player",
+        "relative_position": [0.1, 0.1]
+    },
+    "2": {
+        "name": "GroundDark",
+        "relative_width": 1,
+        "tag": "win"
+    },
+    "3": {
+        "name": "GroundDarkFloating",
+        "relative_position": [0.3, 0.2],
+        "relative_width": 0.3,
+        "tag": "win"
+    },
+    "4": {
+        "name": "GroundDarkFloating",
+        "relative_position": [0.5, 0.4],
+        "relative_width": 1
+    },
+    "5": {
+        "name": "Slime",
+        "relative_position": [0.8, 0.1],
+        "relative_velocity": [-0.1, 0]
+    },
+    "6": {
+        "name": "SlimeOrange",
+        "relative_position": [1, 0.1],
+        "relative_velocity": [-0.1, 0]
+    },
+    "7": {
+        "name": "Slime",
+        "relative_position": [1, 0.5],
+        "relative_velocity": [-0.1, 0]
+    },
+    "8": {
+        "name": "GroundDarkFloating",
+        "relative_position": [0.4, 0.6],
+        "relative_width": 0.3
+    },
+    "9": {
+        "name": "CollectibleKunai",
+        "base_relative_position": [0.4, 0.3]
+    },
+    "10": {
+        "name": "GroundDarkFloating",
+        "relative_position": [0.6, 0.8],
+        "relative_width": 0.3
+    },
+    "11": {
+        "name": "GroundDarkFloating",
+        "relative_position": [0.8, 1],
+        "relative_width": 0.7
+    },
+    "12": {
+        "name": "HoveringCoin",
+        "base_relative_position": [0.3, 0.2]
+    },
+    "13": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1, 1.15]
+    },
+    "14": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.05, 1.15]
+    },
+    "15": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.1, 1.15]
+    },
+    "16": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1, 1.2]
+    },
+    "17": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.05, 1.2]
+    },
+    "18": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.1, 1.2]
+    },
+    "19": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.15, 1.2]
+    },
+    "20": {
+        "name": "Slime",
+        "relative_position": [1.15, 1.2]
+    },
+    "21": {
+        "name": "GroundDarkFloating",
+        "relative_position": [1.9, 0.5],
+        "relative_width": 0.7
+    },
+    "22": {
+        "name": "GroundDarkFloating",
+        "relative_position": [1.9, 1.2],
+        "relative_width": 0.7
+    },
+    "24": {
+        "name": "GroundDarkFloating",
+        "relative_position": [2.5, 0.7],
+        "relative_width": 0.3
+    },
+    "25": {
+        "name": "GroundDarkFloating",
+        "relative_position": [2.5, 0.7],
+        "relative_width": 0.3
+    },
+    "26": {
+        "name": "GroundDarkFloating",
+        "relative_position": [2.6, 0.9],
+        "relative_width": 0.3
+    },
+    "27": {
+        "name": "GroundDarkFloating",
+        "relative_position": [3, 1.1],
+        "relative_width": 0.4
+    },
+    "28": {
+        "name": "GroundDarkFloating",
+        "relative_position": [3.4, 0.8],
+        "relative_width": 0.3
+    },
+    "29": {
+        "name": "GroundDarkFloating",
+        "relative_position": [2.9, 1.1],
+        "relative_width": 0.3
+    },
+    "30": {
+        "name": "GroundDarkFloating",
+        "relative_position": [3, 0.9],
+        "relative_width": 0.3,
+        "tag": "win"
+    },
+    "31": {
+        "name": "SlimeOrange",
+        "relative_position": [0.9, 1.15]
+    },
+    "32": {
+        "name": "SunKey",
+        "base_relative_position": [0.3, 0.3]
+    },
+    "-3": {
+        "name": "Score",
+        "relative_position": [0.5, 0.9]
+    },
+    "-2": {
+        "name": "KunaiCount",
+        "relative_position": [0.1, 0.9]
+    },
+    "-1": {
+        "name": "Health",
+        "relative_position": [0.8, 0.9]
+    }
+}

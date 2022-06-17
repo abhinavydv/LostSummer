@@ -1,148 +1,214 @@
 {
     "1": {
-        "name": "Player",
-        "relative_position": [0.1, 0.1]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.7
     },
     "2": {
-        "name": "GroundDark",
-        "relative_width": 1,
-        "tag": "win"
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [0.2, 0.2]
     },
     "3": {
         "name": "GroundDarkFloating",
-        "relative_position": [0.3, 0.2],
-        "relative_width": 0.3,
-        "tag": "win"
+        "relative_width": 0.5,
+        "relative_position": [0.5, 0.4]
     },
     "4": {
         "name": "GroundDarkFloating",
-        "relative_position": [0.5, 0.4],
-        "relative_width": 1
+        "relative_width": 0.3,
+        "relative_position": [0.2, 0.6]
     },
     "5": {
-        "name": "Slime",
-        "relative_position": [0.8, 0.1],
-        "relative_velocity": [-0.1, 0]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [0.5, 0.8]
     },
     "6": {
-        "name": "SlimeOrange",
-        "relative_position": [1, 0.1],
-        "relative_velocity": [-0.1, 0]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.4,
+        "relative_position": [0.0, 1]
     },
     "7": {
-        "name": "Slime",
-        "relative_position": [1, 0.5],
-        "relative_velocity": [-0.1, 0]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [0.3, 1.2]
     },
     "8": {
         "name": "GroundDarkFloating",
-        "relative_position": [0.4, 0.6],
-        "relative_width": 0.3
+        "relative_width": 0.3,
+        "relative_position": [0.7, 1]
     },
     "9": {
-        "name": "CollectibleKunai",
-        "base_relative_position": [0.4, 0.3]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [0.6, 1.5]
     },
     "10": {
         "name": "GroundDarkFloating",
-        "relative_position": [0.6, 0.8],
-        "relative_width": 0.3
+        "relative_width": 0.4,
+        "relative_position": [0.8, 1.3]
     },
     "11": {
         "name": "GroundDarkFloating",
-        "relative_position": [0.8, 1],
-        "relative_width": 0.7
+        "relative_width": 0.3,
+        "relative_position": [1, 0.8]
     },
     "12": {
-        "name": "HoveringCoin",
-        "base_relative_position": [0.3, 0.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [1.7, 0.2]
     },
     "13": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1, 1.15]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [1.7, 1]
     },
     "14": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1.05, 1.15]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [1.6, 1.2]
     },
     "15": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1.1, 1.15]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.1, 0.4]
     },
     "16": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1, 1.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.2, 0.6]
     },
     "17": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1.05, 1.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.1, 0.8]
     },
     "18": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1.1, 1.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.5, 1]
     },
     "19": {
-        "name": "HoveringCoin",
-        "base_relative_position": [1.15, 1.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.7, 1.2]
     },
     "20": {
-        "name": "Slime",
-        "relative_position": [1.15, 1.2]
+        "name": "GroundDarkFloating",
+        "relative_width": 0.3,
+        "relative_position": [2.4, 1.4]
     },
     "21": {
         "name": "GroundDarkFloating",
-        "relative_position": [1.9, 0.5],
-        "relative_width": 0.7
+        "relative_width": 0.3,
+        "relative_position": [2, 1.6]
     },
     "22": {
         "name": "GroundDarkFloating",
-        "relative_position": [1.9, 1.2],
-        "relative_width": 0.7
+        "relative_width": 0.3,
+        "relative_position": [1.6, 1.8]
+    },
+    "23": {
+        "name": "Player",
+        "relative_position": [0.1, 0.1]
     },
     "24": {
-        "name": "GroundDarkFloating",
-        "relative_position": [2.5, 0.7],
-        "relative_width": 0.3
+        "name": "Slime",
+        "relative_position": [0.6, 0.1]
     },
     "25": {
-        "name": "GroundDarkFloating",
-        "relative_position": [2.5, 0.7],
-        "relative_width": 0.3
+        "name": "Slime",
+        "relative_position": [0.4, 0.3]
     },
     "26": {
-        "name": "GroundDarkFloating",
-        "relative_position": [2.6, 0.9],
-        "relative_width": 0.3
+        "name": "Slime",
+        "relative_position": [0.6, 0.9]
     },
     "27": {
-        "name": "GroundDarkFloating",
-        "relative_position": [3, 1.1],
-        "relative_width": 0.4
+        "name": "Slime",
+        "relative_position": [1.2, 0.9]
     },
     "28": {
-        "name": "GroundDarkFloating",
-        "relative_position": [3.4, 0.8],
-        "relative_width": 0.3
+        "name": "Slime",
+        "relative_position": [1.9, 0.3]
     },
     "29": {
-        "name": "GroundDarkFloating",
-        "relative_position": [2.9, 1.1],
-        "relative_width": 0.3
+        "name": "Slime",
+        "relative_position": [2.3, 0.7]
     },
     "30": {
-        "name": "GroundDarkFloating",
-        "relative_position": [3, 0.9],
-        "relative_width": 0.3,
-        "tag": "win"
+        "name": "Slime",
+        "relative_position": [1.8, 1.1]
     },
     "31": {
-        "name": "SlimeOrange",
-        "relative_position": [0.9, 1.15]
+        "name": "HoveringCoin",
+        "base_relative_position": [0.4, 0.3]
     },
     "32": {
-        "name": "SunKey",
-        "base_relative_position": [0.3, 0.3]
+        "name": "HoveringCoin",
+        "base_relative_position": [0.45, 0.3]
     },
+    "33": {
+        "name": "HoveringCoin",
+        "base_relative_position": [0.35, 0.3]
+    },
+    "34": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.75, 1.1]
+    },
+    "35": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.8, 1.1]
+    },
+    "36": {
+        "name": "HoveringCoin",
+        "base_relative_position": [1.85, 1.1]
+    },
+    "37": {
+        "name": "HoveringCoin",
+        "base_relative_position": [0.85, 1.4]
+    },
+    "38": {
+        "name": "HoveringCoin",
+        "base_relative_position": [0.9, 1.4]
+    },
+    "39": {
+        "name": "HoveringCoin",
+        "base_relative_position": [0.95, 1.4]
+    },
+    "40": {
+        "name": "SlimeOrange",
+        "relative_position": [0.6, 0.9]
+    },
+    "41": {
+        "name": "SlimeOrange",
+        "relative_position": [0.5, 1.3]
+    },
+    "42": {
+        "name": "SlimeOrange",
+        "relative_position": [2.8, 1.3]
+    },
+    "43": {
+        "name": "SlimeOrange",
+        "relative_position": [1.7, 1.9]
+    },
+    "44": {
+        "name": "SlimeOrange",
+        "relative_position": [0.9, 1.4]
+    },
+    "45": {
+        "name": "CollectibleKunai",
+        "base_relative_position": [0.2, 1.1]
+    },
+    "46": {
+        "name": "CollectibleKunai",
+        "base_relative_position": [1.9, 0.3]
+    },
+    "47": {
+        "name": "SunKey",
+        "base_relative_position": [0.7, 1.6]
+    },
+    
     "-3": {
         "name": "Score",
         "relative_position": [0.5, 0.9]

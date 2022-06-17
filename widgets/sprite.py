@@ -14,8 +14,6 @@ from kivy.properties import NumericProperty, StringProperty, ListProperty
 from kivy.lang import Builder
 from kivy.core.window import Window
 
-from PIL import Image
-
 
 Builder.load_file("widgets/sprite.kv")
 
@@ -221,10 +219,16 @@ class Sprite(Widget):
                 setattr(self, i, data[i])
 
     def get_added_to_screen(self, levelscreen):
-        if not self.width_fixed:
-            width, height = levelscreen.images[self.image]
-            self.relative_width = self.relative_height * width / height
-        levelscreen.mainlayout.add_widget(self)
+        try: 
+            if not self.width_fixed:
+                width, height = levelscreen.images[self.image]
+                self.relative_width = self.relative_height * width / height
+            levelscreen.mainlayout.add_widget(self)
+        except:
+            print(self.tag)
+            print(type(self))
+            print(self)
+            print(self.image)
 
 
 class Collection(Sprite):

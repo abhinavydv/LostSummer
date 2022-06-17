@@ -8,6 +8,14 @@ from widgets.sprite import DynamicSprite, StaticSprite, Collection
 from kivy.clock import Clock
 
 
+class EnemyCollider(StaticSprite):
+
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.image = "assets/images/Tiles/Transparent.png"
+        self.tag = "enemy_collider"
+
+
 class GroundCenter(StaticSprite):
 
     def __init__(self, **kwargs):
@@ -366,6 +374,12 @@ class GroundDarkFloating(Collection):
         width, height = levelscreen.images[left.image]
         left.relative_width = left.relative_height * width / height
 
+        left_collider = EnemyCollider()
+        left_collider.relative_height = left_collider.relative_width = self.relative_height
+        left_collider.relative_position[1] = self.relative_position[1] + self.relative_height
+        left_collider.relative_position[0] = self.relative_position[0] - left_collider.relative_width
+        self.sprites["ColliderLeft"] = left_collider
+
         # GroundCenter
         width, height = levelscreen.images["assets/images/Tiles/TileDownCenter.png"]
         num_centers = int((self.relative_width - left.relative_width) /
@@ -390,6 +404,12 @@ class GroundDarkFloating(Collection):
         right.relative_position[0] = self.relative_position[0] + \
             self.relative_width - right.relative_width
         # right.relative_position[0] = self.relative_position[0] + self.relative_width
+
+        right_collider = EnemyCollider()
+        right_collider.relative_height = right_collider.relative_width = self.relative_height
+        right_collider.relative_position[1] = self.relative_position[1] + self.relative_height
+        right_collider.relative_position[0] = self.relative_position[0] + self.relative_width
+        self.sprites["ColliderRight"] = right_collider
 
         super().get_added_to_screen(levelscreen)
 

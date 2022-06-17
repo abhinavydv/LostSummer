@@ -29,7 +29,7 @@ class HomeScreen(Screen):
     -> Settings : The related settings for the game.
     """
 
-    bg_image = StringProperty("assets/images/tiles/BGMain.png")
+    bg_image = StringProperty("assets/images/Tiles/BGMain.png")
 
     def play(self, btn):
         """

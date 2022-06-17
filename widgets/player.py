@@ -131,12 +131,12 @@ class Ninja(Walker):
         levelscreen.player = self
 
     def on_collide(self, other, col):
-        if other.tag == "win":
-            print("Won")
-            self.win()
+        # if other.tag == "win":
+        #     print("Won")
+        #     self.win()
         if self.state == "Dead":
             return
-        if other.tag == "powerup" or other.tag=="collectible":
+        if other.tag == "powerup" or other.tag=="collectible" or other.tag == "enemy_collider":
             return
         if col[2] == "right":
             if not other.is_static:
@@ -165,7 +165,7 @@ class Ninja(Walker):
         lbl = TextLabel(text="You Win!", font_size=100, pos_hint={'x': 0.5, 'y': 0.5}, font_name="assets/fonts/Balloony.ttf", color=(0, 1, 0, 1))
         lbl.relative_font_size = 0.3
         lbl.keep_background = False
-        self.parent.parent.bg_image = "assets/images/tiles/SunnyBackground.png"
+        self.parent.parent.bg_image = "assets/images/Tiles/SunnyBackground.png"
         self.parent.add_widget(lbl)
         self.parent.parent.win()
 

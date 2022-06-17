@@ -9,7 +9,7 @@ class Kunai(Walker):
         self.use_gravity = False
 
     def on_collide(self, other, col):
-        if other.tag != "player" and other.tag != "collectible":
+        if other.tag != "player" and other.tag != "collectible" and other.tag != "enemy_collider":
             if not other.is_static:
                 self.parent.parent.legends["score"].score += other.score_gain
                 other.get_blown()
