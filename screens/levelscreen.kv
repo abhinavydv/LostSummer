@@ -1,0 +1,83 @@
+
+<LevelScreen>:
+    name: "LevelScreen"
+    mainlayout: mainlayout
+    legendlayout: legendlayout
+    # game_over: game_over
+
+    canvas:
+        Rectangle:
+            pos: root.pos
+            size: root.size
+            source: root.bg_image
+    FloatLayout:
+        id: mainlayout
+        # BoxLayout:
+        #     id: game_over
+        #     # opacity: 0
+        #     size_hint: 1, 1
+        #     Label:
+
+        #     BoxLayout:
+        #         size_hint_x: 0.5
+        #         orientation: 'vertical'
+
+        #         Label:
+
+        #         Button:
+        #             size_hint_y: 0.6
+        #             text: "Restart"
+        #             disabled: bool(self.parent.parent.opacity)
+        #             on_release:
+        #                 root.restart(self)
+        #         Button:
+        #             size_hint_y: 0.6
+        #             text: "Exit"
+        #             disabled: bool(self.parent.parent.opacity)
+        #             on_release:
+        #                 root.exit(self)
+
+        #         Label:
+        #     Label:
+        #         size_hint_x: 0.3
+
+        FloatLayout:
+            id: legendlayout
+
+<GameOver>:
+    BoxLayout:
+        id: game_over
+        # opacity: 0
+        size_hint: 1, 1
+        Label:
+            # text: "You Win"
+            # font_size: self.height/5
+
+        BoxLayout:
+            size_hint_x: 0.4
+            size_hint_y: 0.5
+            orientation: 'vertical'
+
+            Label:
+
+            Button:
+                size_hint_y: 0.6
+                text: "Restart"
+                # opacity: 0.7
+                font_size: self.height/2
+                background_color: (0, 1, 0, 0.7)
+                on_release:
+                    root.parent.parent.restart(self)
+            Button:
+                size_hint_y: 0.6
+                text: "Exit"
+                font_size: self.height/2
+                background_color: (1, 0, 0, 0.7)
+                # opacity: 0.7
+                on_release:
+                    root.parent.parent.exit(self)
+
+            Label:
+                size_hint_y: 0.3
+        Label:
+            size_hint_x: 0.3

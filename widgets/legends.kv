@@ -1,0 +1,52 @@
+
+#:import Window kivy.core.window.Window
+
+<Legend>:
+	# pos: root.relative_position[0]*Window.height-self.width, root.relative_position[1]*Window.height
+    pos_hint: {'x': root.relative_position[0], 'y': root.relative_position[1]}
+    size_hint: None, None
+    height: root.relative_height*Window.height
+
+    canvas.before:
+        Color:
+            rgba: (0, 1 , 0, 0.3 if root.keep_background else 0)
+        Rectangle:
+            pos: root.pos
+            size: root.size
+
+<TextLabel>:
+    pos: self.parent.pos if self.parent is not None else self.pos
+    size: self.parent.size if self.parent is not None else self.size
+    font_size: self.relative_font_size*Window.height
+
+<KunaiCount>:
+    canvas.after:
+        Rectangle:
+            pos: root.pos[0]+root.width*0.1, root.pos[1]
+            size: root.width*0.2, root.height
+            # width: self.width
+            source: root.kunai_image
+
+<Health>:
+    heart1: heart1
+    heart2: heart2
+    heart3: heart3
+    Image:
+        id: heart1
+        pos: root.pos[0], root.pos[1]+root.height/4
+        size: root.width*0.4, root.height/2
+        source: root.heart_image
+        opacity: 1 if root.count > 0 else 0
+    Image:
+        id: heart2
+        pos: root.pos[0]+self.width*0.7, root.pos[1]+root.height/4
+        size: root.width*0.4, root.height/2
+        source: root.heart_image
+        opacity: 1 if root.count > 1 else 0
+    Image:
+        id: heart3
+        pos: root.pos[0]+self.width*1.4, root.pos[1]+root.height/4
+        size: root.width*0.4, root.height/2
+        source: root.heart_image
+        opacity: 1 if root.count > 2 else 0
+    

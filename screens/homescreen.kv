@@ -1,0 +1,64 @@
+#:import Window kivy.core.window.Window
+
+<TransparentButton@Button>:
+    # background_color: tuple(list(self.background_color)[0:3] + [.5])
+    font_size: self.height/2
+
+<HomeScreen>:
+    name: "HomeScreen"
+    canvas.before:
+        Rectangle:
+            pos: root.pos
+            size: root.size
+            source: root.bg_image
+    FloatLayout:
+
+        BoxLayout:
+            orientation: 'horizontal'
+
+            Label:
+
+            Label:
+
+            Label:
+
+            BoxLayout:
+                orientation: 'vertical'
+
+                Label:
+
+                TransparentButton:
+                    text: "Play"
+                    background_color: (0, 1, 0, 1)
+                    on_release:
+                        root.play(self)
+
+                TransparentButton:
+                    text: "Settings"
+                    on_release:
+                        root.settings(self)
+
+                TransparentButton:
+                    text: "Exit"
+                    background_color: (1, 0, 0, 1)
+                    on_release:
+                        app.stop()
+
+            #     TransparentButton:
+            #         text: "Levels"
+            #         on_release:
+            #             root.levels(self)
+
+            #     TransparentButton:
+            #         text: "Settings"
+            #         on_release:
+            #             root.settings(self)
+
+                Label:
+
+            Label:
+                size_hint_x: 0.1
+
+            
+
+            

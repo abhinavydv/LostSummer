@@ -1,0 +1,287 @@
+{
+    "Mario": {
+        "class": "widgets.mario.Mario",
+        "relative_height": 0.06,
+        "relative_width": 0.04,
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0],
+        "max_relative_velocity": [0.2, 0.6]
+    },
+    "Player": {
+        "class": "widgets.player.Ninja",
+        "relative_height": 0.09,
+        "relative_width": 0.06,
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0],
+        "max_relative_velocity": [0.2, 0.6]
+    },
+    "Ground": {
+        "class": "widgets.objects.Ground",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "OrangeBrick": {
+        "class": "widgets.objects.OrangeBrick",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0]
+    },
+    "QuestionBlock": {
+        "class": "widgets.objects.QuestionBlock",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0]
+    },
+    "PipeHead": {
+        "class": "widgets.objects.PipeHead",
+        "relative_height": 0.02,
+        "relative_width": 0.024,
+        "relative_position": [0, 0]
+    },
+    "PipeBody": {
+        "class": "widgets.objects.PipeBody",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0]
+    },
+    "Pipe": {
+        "class": "widgets.objects.Pipe",
+        "relative_height": 0.15,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "Goomba": {
+        "class": "widgets.walker.Goomba",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "FlyGoomba" : {
+        "class": "widgets.jumper.FlyGoomba",
+        "relative_height": 0.07,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "Koopa" : {
+        "class": "widgets.walker.Koopa",
+        "relative_height": 0.07,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.2, 0.4]
+    },
+    "Piranha" : {
+        "class": "widgets.periodic.Piranha",
+        "relative_height": 0.07,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.1],
+        "max_relative_velocity": [0, 0.1]
+    },
+    "Mushroom" : {
+        "class": "widgets.collectibles.Mushroom",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.24]
+    },
+    "PowerStar" : {
+        "class": "widgets.collectibles.Star",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "FireFlower": {
+        "class": "widgets.collectibles.FireFlower",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "Coin": {
+        "class": "widgets.collectibles.Coin",
+        "relative_height": 0.03,
+        "relative_width": 0.03,
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.4],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "FireBall": {
+        "class": "widgets.abstract.FireBall",
+        "relative_height": 0.025,
+        "relative_width": 0.025,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.35, 0],
+        "max_relative_velocity": [0.35, 0.45]
+    },
+    "Castle": {
+        "class": "widgets.objects.Castle",
+        "relative_height": 0.9,
+        "relative_width": 0.9,
+        "relative_position": [0, 0]
+    },
+    "Flag": {
+        "class": "widgets.objects.Flag",
+        "relative_height": 0.9,
+        "relative_width": 0.9,
+        "relative_position": [0, 0]
+    },
+    "Kunai": {
+        "class": "widgets.weapon.Kunai",
+        "relative_height": 0.01,
+        "relative_width": 0.03,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.4, 0],
+        "max_relative_velocity": [1, 1]
+    },
+    "GroundDarkFloating": {
+        "class": "widgets.objects.GroundDarkFloating",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkUpLeft": {
+        "class": "widgets.objects.GroundDarkUpLeft",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkUpCenter": {
+        "class": "widgets.objects.GroundDarkUpCenter",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkUpRight": {
+        "class": "widgets.objects.GroundDarkUpRight",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkMidLeft": {
+        "class": "widgets.objects.GroundDarkMidLeft",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkMidCenter": {
+        "class": "widgets.objects.GroundDarkMidCenter",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkMidRight": {
+        "class": "widgets.objects.GroundDarkMidRight",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkDownLeft": {
+        "class": "widgets.objects.GroundDarkDownLeft",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkDownCenter": {
+        "class": "widgets.objects.GroundDarkDownCenter",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDarkDownRight": {
+        "class": "widgets.objects.GroundDarkDownRight",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "GroundDark": {
+        "class": "widgets.objects.GroundDark",
+        "relative_height": 0.1,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "CollectibleKunai": {
+        "class": "widgets.collectibles.CollectibleKunai",
+        "relative_height": 0.06,
+        "relative_width": 0.02,
+        "base_relative_position": [0, 0],
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.031],
+        "max_relative_velocity": [0, 0.031]
+    },
+    "HealthPotion": {
+        "class": "widgets.collectibles.HealthPotion",
+        "relative_height": 0.06,
+        "relative_width": 0.03,
+        "base_relative_position": [0, 0],
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.031],
+        "max_relative_velocity": [0, 0.031]
+    },
+    "TextLabel": {
+        "class": "widgets.legends.TextLabel",
+        "relative_position": [0, 0],
+        "relative_height": 0.06,
+        "relative_width": 0.1
+    },
+    "Score": {
+        "class": "widgets.legends.Score",
+        "relative_height": 0.06,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "KunaiCount": {
+        "class": "widgets.legends.KunaiCount",
+        "relative_height": 0.06,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "Health": {
+        "class": "widgets.legends.Health",
+        "relative_height": 0.06,
+        "relative_width": 0.1,
+        "relative_position": [0, 0]
+    },
+    "Slime": {
+        "class": "widgets.walker.Slime",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "SlimeOrange": {
+        "class": "widgets.walker.SlimeOrange",
+        "relative_height": 0.05,
+        "relative_width": 0.05,
+        "relative_position": [0, 0],
+        "relative_velocity": [0.1, 0],
+        "max_relative_velocity": [0.1, 0.4]
+    },
+    "HoveringCoin": {
+        "class": "widgets.collectibles.HoveringCoin",
+        "relative_height": 0.03,
+        "relative_width": 0.03,
+        "base_relative_position": [0, 0],
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.031],
+        "max_relative_velocity": [0, 0.031]
+    },
+    "SunKey": {
+        "class": "widgets.collectibles.SunKey",
+        "relative_height": 0.03,
+        "relative_width": 0.03,
+        "base_relative_position": [0, 0],
+        "relative_position": [0, 0],
+        "relative_velocity": [0, 0.031],
+        "max_relative_velocity": [0, 0.031]
+    }
+}
