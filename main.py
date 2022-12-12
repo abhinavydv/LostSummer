@@ -13,7 +13,7 @@ from kivy.core.window import Window
 # Window.clearcolor = (0, 0, 0, 1)
 
 
-class SuperMarioApp(MDApp):
+class LostSummerApp(MDApp):
 
     def build(self):
         """
@@ -96,4 +96,4 @@ class SuperMarioApp(MDApp):
 
 
 if __name__ == "__main__":
-    SuperMarioApp().run()
+    LostSummerApp().run()

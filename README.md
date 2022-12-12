@@ -8,6 +8,9 @@ A small teenage ninja boy has pledged to defeat the demon king and bring summer 
 - Enter -> File Kunai
 - Q -> Use sword
 
+## Gameplay Images
+![Image not available](https://)
+
 ## Requirements
 Run the following command to install all python libraries needed for running the project  
 `pip install -r requirements.txt`
