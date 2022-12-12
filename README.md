@@ -5,11 +5,13 @@ A small teenage ninja boy has pledged to defeat the demon king and bring summer 
 ## Controls
 - Left and Right Arrow keys ->  Move
 - Spacebar -> Jump
-- Enter -> File Kunai
+- Enter -> Fire Kunai
 - Q -> Use sword
 
 ## Gameplay Images
-![Image not available](https://)
+![Image not available](./gameplay/images/home.png)
+![Image not available](./gameplay/images/play1.png)
+![Image not available](./gameplay/images/play2.png)
 
 ## Requirements
 Run the following command to install all python libraries needed for running the project  
